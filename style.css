@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.mane{
+    background-color: rgb(45, 39, 39);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo1{
+    width: 150px;
+}
+.navber{
+    color: white;
+    list-style: none;
+    display: flex;
+}
+.item{
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    list-style: none;
+    color: rgb(240, 246, 247);
+}
+.item:hover{
+    color: red;
+}
+
+.bannerimg{
+    width: 400px;
+}
+
+.contain{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    /* border: 2px solid black; */
+    height: 100vh;
+    background-image: url("logo/images/background.png"),linear-gradient(60deg,rgb(95, 52, 52),rgb(46, 33, 33));
+
+}
+.font{
+    font-size:50px;
+    font-weight: bold;
+}
+.paragrahp{
+    margin-top: 15px;
+}
+.button{
+    margin-top: 15px;
+    padding: 10px 10px;
+    background-color:red;
+    border: none;
+    color: white;
+    cursor: pointer;  
+  
+}
+.button:hover{
+    background-color:black;
+    color:red;
+    border-radius:5px;
+
+}
+.images{
+    width: 400px;
+}
+.head{
+    text-align: center;
+    font-size:40px;
+    padding:10px;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    /* padding-top:0px ; */
+    height:70vh;
+}
+.padding{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.fon{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 30px;
+}
+.pad{
+    padding-bottom: 10px;
+}
+.box{
+    width:230px;
+    height:250px;
+    box-shadow:6px 6px 15px red ;
+    text-align: center;
+    padding-top: 60px;
+    background-color: black;
+    color: white;
+}
+.manecontener{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(32, 30, 27);
+    padding: 50px;
+
+
+}
+.boxtitle{
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+}
