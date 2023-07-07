@@ -111,9 +111,8 @@ p{
     justify-content: space-around;
     background-color: rgb(32, 30, 27);
     padding: 50px;
-
-
 }
+
 .boxtitle{
     margin-top: 10px;
     margin-bottom: 80px;
@@ -121,4 +120,11 @@ p{
 .first{
     display: flex;
     justify-content: space-around;
+}
+.foot{
+    padding-top:60px ;
+    background-color: rgb(9, 8, 8);
+    color: white;
+    height: 200px;
+    align-items: center;
 }
